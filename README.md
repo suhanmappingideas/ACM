@@ -8,6 +8,7 @@
 <li><span style="color: #808080;">It provides a stacked chart representing the temporal change of each class of choropleth maps within the map extent.&nbsp;</span></li>
 </ol>
 
+</br>
 <strong>For more information about ACM, visit the website of ACM.</strong>  
 
 <strong>Longitudinal Neighborhood Explorer (LNE) is the application using Adaptive Choropleth Mapper.</strong>
