@@ -8,8 +8,8 @@
 <li><span style="color: #808080;">It provides a stacked chart representing the temporal change of each class of choropleth maps within the map extent.&nbsp;</span></li>
 </ol>
 
-For more information about ACM, visit the website: http://sarasen.asuscomm.com/ACM
+<strong>For more information about ACM, visit the website of ACM.</strong>  
 
-Longitudinal Neighborhood Explorer (LNE) is the application using Adaptive Choropleth Mapper: http://sarasen.asuscomm.com/LNE
+<strong>Longitudinal Neighborhood Explorer (LNE) is the application using Adaptive Choropleth Mapper.</strong>
 
 <strong><img src="http://sarasen.asuscomm.com/ACM/images/img1.PNG" alt="Foreign Born Los Angeles" width="1000" height="816" /></strong>
