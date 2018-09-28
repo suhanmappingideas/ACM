@@ -3,7 +3,9 @@
 
 <strong>Example use of Adaptive Choropleth Mapper (ACM) </strong>
 <ul>
-    <li>[cancer data](http://sarasen.asuscomm.com/ACM/cancer.html)</li>
+    <li>census : (http://sarasen.asuscomm.com/ACM/census.html)</li>
+    <li>cancer : (http://sarasen.asuscomm.com/ACM/cancer.html)</li>
+    <li>income : (http://sarasen.asuscomm.com/ACM/income.html)</li>
 </ul>
 
 
