@@ -1,6 +1,6 @@
 # Adaptive Choropleth Mapper (ACM)
 
-<p><strong>Adaptive Choropleth Mapper (ACM) is an open-source Javascript Library for Multiple Choropleth Mapping. ACM is a novel choropleth mapping tool providing following novel functions</strong></p>
+<p><strong>Adaptive Choropleth Mapper (ACM) is an open-source Javascript Library for Multiple Choropleth Mapping. ACM is a novel choropleth mapping tool providing following novel functions at once:</strong></p>
 <ol>
 <li><span style="color: #808080;">It provides an automatic way to set the same class interval to multiple choropleth maps for a fair comparison.</span></li>
 <li><span style="color: #808080;">Whenever the user pans and zooms the map, the class interval is automatically recalculated with values within the map extent.</span></li>
