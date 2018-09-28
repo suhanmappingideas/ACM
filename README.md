@@ -9,8 +9,7 @@
 </ol>
 
 </br>
-<strong>For more information about ACM, visit the website of ACM.</strong>  
-
-<strong>Longitudinal Neighborhood Explorer (LNE) is the application using Adaptive Choropleth Mapper.</strong>
+<p>For more information about ACM, visit the <a href="http://sarasen.asuscomm.com/ACM" target="_blank" rel="noopener">website of ACM</a>.&nbsp;&nbsp;</p>
+<p>Longitudinal Neighborhood Explorer (LNE) is the application using <a href="http://sarasen.asuscomm.com/LNE" target="_blank" rel="noopener">Adaptive Choropleth Mapper.</a></p>
 
 <strong><img src="http://sarasen.asuscomm.com/ACM/images/img1.PNG" alt="Foreign Born Los Angeles" width="1000" height="816" /></strong>
