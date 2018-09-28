@@ -1,8 +1,10 @@
 # ACM
 Adaptive Choropleth Mapper
 
+Example use of ACM
+    [cancer data](http://sarasen.asuscomm.com/ACM/cancer.html)
 
 Example data were downloaded in the following websites.
-1. cancer data: https://data.livewellsd.org/
-2. income data: https://github.com/pysal/pysal/tree/master/pysal/examples/us_income
-3. census data: https://www.census.gov/programs-surveys/decennial-census/decade.2010.html
+    cancer data: https://data.livewellsd.org/
+    income data: https://github.com/pysal/pysal/tree/master/pysal/examples/us_income
+    census data: https://www.census.gov/programs-surveys/decennial-census/decade.2010.html
