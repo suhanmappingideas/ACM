@@ -1195,7 +1195,7 @@ $( document ).ready(function() {
 	if (!('features' in GEO_JSON) || GEO_JSON.features.length < 1) {
 		swal({
 			title: "Alert!",
-			text: "The 'GEO_JSON' you provided has no 'features'.\nPlease check it.",
+			text: "The 'GEO_JSON' you provided has no 'features'.",
 			icon: "error",
 			button: "ABORT",
 		});
@@ -1207,7 +1207,7 @@ $( document ).ready(function() {
 	if (!(geokey in firstProperty)) {
 		swal({
 			title: "Alert!",
-			text: "The key '"+geokey+"' is not found in the 'GEO_JSON'.\nPlease check it.",
+			text: "The key in your geojosn should match the key in your attributes.",
 			icon: "error",
 			button: "ABORT",
 		});
