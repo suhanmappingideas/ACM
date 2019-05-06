@@ -19,7 +19,7 @@ var Initial_map_zoom_level = 13;                           // range 1 to 20 ?
 var Initial_map_center = [33.786671, -118.182354];         // LA
 var Initial_map_zoom_level = 10;                           // range 1 to 20 ? 
 */
-var Initial_map_center = [39.8283, -90];  
+var Initial_map_center = [39.8283, -87];  
 var Initial_map_zoom_level = 3;   
 
 /* It shows the change of number of polygons belonging to each class intervals 
@@ -30,8 +30,8 @@ var Stacked_Chart = true;                                  // true or false
 //var Num_Of_Decimal_Places = 2;                             // default = 1
 
 
-var Map_width  = "420px";                                  // min 350px
-var Map_height = "300px";                                  // min 300px
+var Map_width  = "460px";                                  // min 350px
+var Map_height = "320px";                                  // min 300px
 
-var Chart_width  = "300px";                                // min 300px
-var Chart_height = "250px";                                // min 200px
+var Chart_width  = "460px";                                // min 300px
+var Chart_height = "320px";                                // min 200px

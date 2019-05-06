@@ -2119,7 +2119,10 @@ function zeroPad(num, places) {
 
 // Draw Stacked Area Chart
 function drawStackedAreaChart(svgid, data, colorGradient) {
-	if (app.StackedChart == false || app.m <= 1) return;
+	if (app.StackedChart == false || app.m <= 1) {
+		$("#map"+app.m).html("");
+		return;
+	}
 
 	var clone = JSON.parse(JSON.stringify(data));          // deep copy from data
 	

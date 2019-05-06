@@ -29,4 +29,4 @@ var Map_width  = "450px";                                  // min 350px
 var Map_height = "450px";                                  // min 250px
 
 var Chart_width  = "450px";                                // min 300px
-var Chart_height = "300px";                                // min 200px
+var Chart_height = "450px";                                // min 200px
