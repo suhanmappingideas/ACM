@@ -26,7 +26,7 @@ var Stacked_Chart = true;                                  // true or false
 //var Num_Of_Decimal_Places = 2;                             // default = 1
 
 var Map_width  = "450px";                                  // min 350px
-var Map_height = "450px";                                  // min 250px
-
-var Chart_width  = "450px";                                // min 300px
-var Chart_height = "450px";                                // min 200px
+var Map_height = "450px";                                  // min 300px
+                                                           
+var Chart_width  = "450px";                                // min 350px
+var Chart_height = "450px";                                // min 300px

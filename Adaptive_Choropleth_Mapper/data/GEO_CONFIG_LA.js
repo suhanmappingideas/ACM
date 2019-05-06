@@ -31,6 +31,6 @@ var Num_Of_Decimal_Places = 4;
 
 var Map_width  = "400px";                                  // min 350px
 var Map_height = "400px";                                  // min 300px
-
-var Chart_width  = "300px";                                // min 300px
-var Chart_height = "250px";                                // min 200px
+                                                           
+var Chart_width  = "300px";                                // min 350px
+var Chart_height = "250px";                                // min 300px

@@ -33,5 +33,5 @@ var Stacked_Chart = true;                                  // true or false
 var Map_width  = "460px";                                  // min 350px
 var Map_height = "320px";                                  // min 300px
 
-var Chart_width  = "460px";                                // min 300px
-var Chart_height = "320px";                                // min 200px
+var Chart_width  = "460px";                                // min 350px
+var Chart_height = "320px";                                // min 300px
