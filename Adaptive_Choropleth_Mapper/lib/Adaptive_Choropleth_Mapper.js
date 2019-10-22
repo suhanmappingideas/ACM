@@ -1558,7 +1558,7 @@ function triggerStackedAreaChart() {
 	var cHeight = Math.floor((ChartHeight - 20) / 2);
 	//console.log("Chart: ("+ChartWidth+","+ChartHeight+")  ->  chart: ("+cWidth+","+cHeight+")");
 	var html = '';
-	//html += '<div style="text-align:center;">The percentage of polygons blelonging to each class</div>';
+	//html += '<div style="text-align:center;">The percentage of polygons belonging to each class</div>';
 	html += '<div style="text-align:right; margin-top:25px;">';
 	html += '	<div style="text-align:left; padding-left:70px; font-size:80%; font-style:normal;">Global</div>';
 	html += '	<svg id="globalStackedAreaChart" width="' + cWidth + '" height="' + cHeight + '"></svg>';
