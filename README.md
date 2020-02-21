@@ -1,6 +1,6 @@
 # Adaptive Choropleth Mapper (ACM)
 
-<p><strong>Adaptive Choropleth Mapper (ACM) is an open-source mapping tool for the visualization multiple choropleth maps, which provides following functions.</strong></p>
+<p><strong>Adaptive Choropleth Mapper (ACM) is an open-source mapping tool for the visualization of multiple choropleth maps, which provides following functions.</strong></p>
 <ol>
 <li><span style="color: #808080;">automated computation of the same class intervals for shading different choropleth maps</span></li>
 <li><span style="color: #808080;">dynamic visualization of local variation in a variable</span></li>
