@@ -3,6 +3,7 @@
 var getNow = function() { return moment().format('HH:mm:ss.SSS '); };
 var CA = null;
 var app={
+	adjustBound: 0.25,							 // ratio to reduce rectangle size of intial bounds	
 	maxZoom: 14,
 	m: 5,                                        // number of maps in a web page shown
 	geokey: null,                                // global variable for GEO_JSON and GEO_VARIABLES (ex. tractid)
@@ -306,7 +307,7 @@ function draw_titlemap(mIDX, layer) {
 	$("#"+mIDX+"_syncbtn").on('click', function() {
 		//console.log(getNow());
 		//console.log(getNow(), mIDX, mIDX+"_syncbtn clicked");
-		app.inputType = mIDX+"_syncbtn clicked";                     // ex) map1_syncbtn clicked
+		//app.inputType = mIDX+"_syncbtn clicked";                     // ex) map1_syncbtn clicked
 		globalHeadingRestore();
 		
 		// get input value of global options
@@ -582,7 +583,7 @@ function draw_globalSelection() {
 		html = '<img src="images/' + label + "/" + value + '_s.PNG" height="10px" width="195px">';
 		$("#global_img").html(html);
 	});
-	$("#globalColor").val("Yellow_to_Red").trigger('change');
+	$("#globalColor").val("Yellow_to_Blue").trigger('change');
 	app.globalColor = $("#globalColor").val();
 	
 	// set drop-down list of 'local_color' 
@@ -612,7 +613,7 @@ function draw_globalSelection() {
 		html = '<img src="images/' + label + "/" + value + '_s.PNG" height="10px" width="195px">';
 		$("#local_img").html(html);
 	});
-	$("#localColor").val("Black").trigger('change');
+	$("#localColor").val("Yellow_to_Red").trigger('change');
 	app.localColor = $("#localColor").val();
 
 	// set check box of 'global_join' 
@@ -1004,7 +1005,7 @@ function ACSdata_render(mIDX) {
 		else                                                 app.colorGradient19[0].push(['#FFB3B3']);
 		
 		colorScheme = localColorSeries + '_' + nClass;
-		if (!(colorScheme in COLOR_CLASS)) colorScheme = 'Black_8';            // default color of local
+		if (!(colorScheme in COLOR_CLASS)) colorScheme = 'Yellow_to_Blue_8';            // default color of local
 		//console.log("local colorScheme: "+colorScheme);
 		app.colorGradient1[1] = COLOR_CLASS[colorScheme];
 		app.colorGradient19[1] = app.colorGradient1[1].slice();
@@ -1623,8 +1624,19 @@ function draw_all_maps() {
 	// set map bounds using geo bounds in d3 function
 	var geoBounds = d3.geoBounds(CA);
 	//console.log(geoBounds)
-	var fitBounds = L.latLngBounds(L.latLng(geoBounds[0][1], geoBounds[0][0]), 
-								   L.latLng(geoBounds[1][1], geoBounds[1][0]));
+	
+	var north = geoBounds[1][1];
+	var east  = geoBounds[1][0];
+	var south = geoBounds[0][1];
+	var west  = geoBounds[0][0];
+	var w = (east - west) * app.adjustBound;							// default 0.25
+	var h = (north - south) * app.adjustBound;							// default 0.25
+	north -= h;
+	south += h;
+	west += w;
+	east -= w;	
+	
+	var fitBounds = L.latLngBounds(L.latLng(north, east), L.latLng(south, west));
 	//console.log('fitBounds:', fitBounds);
 	if (app.InitialMapCenter != null && app.InitialMapZoomLevel != null) {
 	
