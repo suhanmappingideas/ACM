@@ -1,12 +1,12 @@
 // Define the number of maps that you want to visaulize. Upto 15 maps are supported.
 
-var NumOfMaps = 5; 
+var NumOfMaps = 6; 
 
 /*
 /* Example for defining the variabels that you want to visaulize. */
-/*
-var InitialLayers = ["Heart Disease10", "Heart Disease11", "Heart Disease12", "Heart Disease13"];
-*/
+
+var InitialLayers = ["% of All people in poverty(2017)","Lung & Bronchus Cancer Age-Adjusted Incidence Rate - cases per 100,000 (2014 - 2019)","Lung & Bronchus Cancer Age-Adjusted Mortality Rate - cases per 100,000 (2000)","Lung & Bronchus Cancer Age-Adjusted Mortality Rate - cases per 100,000 (2005)","Lung & Bronchus Cancer Age-Adjusted Mortality Rate - cases per 100,000 (2010)","Lung & Bronchus Cancer Age-Adjusted Mortality Rate - cases per 100,000 (2014)","Lung & Bronchus Cancer Age-Adjusted Mortality Rate - cases per 100,000 (2000 - 2016)"];
+
 
 
 /* Map Extent and Zoom level will be automatically adjusted when you do not define map center and zoom level */
@@ -29,7 +29,7 @@ var Stacked_Chart = false;                                  // true or false
 var Num_Of_Decimal_Places = 4; 
 
 var Map_width  = "400px";                                  // min 350px
-var Map_height = "400px";                                  // min 300px
+var Map_height = "500px";                                  // min 300px
                                                            
 var Chart_width  = "300px";                                // min 350px
 var Chart_height = "250px";                                // min 300px

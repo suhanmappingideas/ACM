@@ -1,17 +1,11 @@
-# Adaptive Choropleth Mapper (ACM)
-
-<p><strong>Adaptive Choropleth Mapper (ACM) is an open-source mapping tool for the visualization of multiple choropleth maps, which provides following functions.</strong></p>
+<p># Adaptive Choropleth Mapper (ACM)</p>
+<p><strong>Adaptive Choropleth Mapper (ACM) is an open-source mapping tool for the visualization of multiple choropleth maps, which provides the following functions.</strong></p>
 <ol>
-<li><span style="color: #808080;">automated computation of the same class intervals for shading different choropleth maps</span></li>
-<li><span style="color: #808080;">dynamic visualization of local variation in a variable</span></li>
-<li><span style="color: #808080;">linking for synchronous exploration of multiple choropleth maps</span></li>
-<li><span style="color: #808080;">a stacked chart for visualizing temporal dynamics  </span></li>
+<li>An automatic way to compute and set the same class intervals across different choropleth maps</li>
+<li>A paired visualization of choropleth maps, with both global and local classifications</li>
+<li>Linking and brushing across multiple choropleth maps in terms of map extents and class intervals</li>
+<li>A stacked chart representing the temporal change of each class in choropleth maps over time</li>
 </ol>
-
-</br>
-<strong>
-<p>For more information about ACM, visit the <a href="http://sarasen.asuscomm.com/ACM" target="_blank" rel="noopener">website of ACM</a>.&nbsp;&nbsp;</p>
-<p><a href="http://sarasen.asuscomm.com/LNE" target="_blank" rel="noopener">Longitudinal Neighborhood Explorer (LNE)</a> is an application using Adaptive Choropleth Mapper.</p>
-</strong>
-</br></br>
-<strong><img src="Adaptive_Choropleth_Mapper/images/Foreign_Born.PNG" alt="Foreign Born Los Angeles" width="1000" height="750" /></strong>
+<p>For more information about ACM, visit the <a href="http://173.255.192.133/~suhan/ACM" target="_blank" rel="noopener">website of ACM</a>.&nbsp;&nbsp;</p>
+<p><a href="http://173.255.192.133/~suhan/LNE" target="_blank" rel="noopener">Longitudinal Neighborhood Explorer (LNE)</a> is an application using Adaptive Choropleth Mapper.</p>
+<p><strong><img src="Adaptive_Choropleth_Mapper/images/Foreign_Born.PNG" alt="Foreign Born Los Angeles" width="1000" height="750" /></strong></p>
