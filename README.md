@@ -6,6 +6,6 @@
 <li>Linking and brushing across multiple choropleth maps in terms of map extents and class intervals</li>
 <li>A stacked chart representing the temporal change of each class in choropleth maps over time</li>
 </ol>
-<p>For more information about ACM, visit the <a href="http://173.255.192.133/~suhan/ACM" target="_blank" rel="noopener">website of ACM</a>.&nbsp;&nbsp;</p>
-<p><a href="http://173.255.192.133/~suhan/LNE" target="_blank" rel="noopener">Longitudinal Neighborhood Explorer (LNE)</a> is an application using Adaptive Choropleth Mapper.</p>
+<p>For more information about ACM, visit the <a href="http://su-gis.iptime.org/ACM" target="_blank" rel="noopener">website of ACM</a>.&nbsp;&nbsp;</p>
+<p><a href="http://su-gis.iptime.org/LNE/intro.html" target="_blank" rel="noopener">Longitudinal Neighborhood Explorer (LNE)</a> is an application using Adaptive Choropleth Mapper.</p>
 <p><strong><img src="Adaptive_Choropleth_Mapper/images/Foreign_Born.PNG" alt="Foreign Born Los Angeles" width="1000" height="750" /></strong></p>
